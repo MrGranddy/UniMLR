@@ -1,7 +1,6 @@
 >UniMLR is a unified multi-label ranking method solving both multi classification and label ranking problems together. The repo also provides Ranked MNIST dataset creating codes and two novel multi-label ranking methods CRPC (Strong) and LSEP (Strong) which utilizes our novel paradigm.
 
-# UniMLR: Modeling Implicit Class Significance for
-Multi-Label Ranking
+# UniMLR: Modeling Implicit Class Significance for Multi-Label Ranking
 
 ## Requirements
 
