@@ -1,8 +1,7 @@
 >UniMLR is a unified multi-label ranking method solving both multi classification and label ranking problems together. The repo also provides Ranked MNIST dataset creating codes and two novel multi-label ranking methods CRPC (Strong) and LSEP (Strong) which utilizes our novel paradigm.
 
-# UniMLR: Learning Implicit Class Significance via Calibrated Multi-Label Ranking
-
-Access to paper provided at [https://arxiv.org/abs/2303.03907](https://arxiv.org/abs/2303.03907)
+# UniMLR: Modeling Implicit Class Significance for
+Multi-Label Ranking
 
 ## Requirements
 
@@ -32,20 +31,14 @@ The script have the necessary parameters inside, after training to create an eva
 
 To run the experiments conducted in the paper you can use the corresponding experiment script.
 
-"Calibration" is for 5.6. Calibration Experiment
-"interpolation" is for 5.5 Adjusting Significance Effects Experiment
+"Calibration" is for Calibration Experiment
+"interpolation" is for Adjusting Significance Effects Experiment
 To run the above experiments you should create the necessary data using the scripts in "dataset_creation/interpolation_test_set.py", "dataset_creation/calibration_test_set.py", 
 "dataset_creation/create_brightness_calibration_test_set.py",
 "dataset_creation/create_interpolation_test_set_small_change.py"
 
-"visual_interpolation" is for 5.7 Extracted Significance Value Experiment
-and "interpolation_var" is for Appendix §10
+"visual_interpolation" is for Extracted Significance Value Experiment
 
 ## TL; DR
 
 "loss.py", "model.py", "*_trainer.py", "loss.py", "new_metrics.py", "reader.py", "utils.py" and the "dataset_creation" directory are all you need to train and evalutate the methods provided in our paper. "*.sh" script are there to easily run multiple experiments.
-
-## Pre-trained Weights
-
-The pre-trained weights can be found in the link:
-https://doi.org/10.5281/zenodo.6585212
